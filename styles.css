@@ -1,0 +1,104 @@
+﻿hr {
+	border-top: 6px dotted red;
+	width: 50px;
+	background: white;
+}
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: montserrat;
+}
+
+nav{
+	background: #00b3b3;
+	height: 80px;
+	width: 100%;
+	
+}
+
+
+.logo img{
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	margin-right: 750px;
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+a.active,a:hover{
+	background: #00e6e6;
+	transition: .5s;
+}
+.checkbtn{
+	font-size: 30px;
+	color: white; 
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+}
+h1{
+	font-style: italic;
+	display: block;
+	font-size: 5em;
+	margin-top: 0.67em;
+	margin-bottom: 0.50em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+	text-align: center;
+	
+	font-family: georgia,garamond,serif;
+}
+ 
+img {
+	border-radius: 50%;
+	margin-right: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+h3 {
+	font-style: italic;
+	text-align: center;
+	color: #006666;
+	width: 1350px;
+	height: 5px;
+	font-size: 4em;
+}
+h4 {
+	font-style: italic;
+	text-align: center;
+	margin-top: 1.67em;
+	width: 1350px;
+	height: 3px;
+	font-size: 2em;
+	color: #006666;
+}
+
+
+body{
+	background-image: url("melody/FB_IMG_1592025719412.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
